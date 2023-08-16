@@ -1,0 +1,41 @@
+/* fontes do google */
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;800&family=Parisienne&family=Roboto&family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
+
+ /* css do sobre nós */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.cabecalho {
+  background: rgb(204, 1, 1);
+  height: 13vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+           
+footer {
+  bottom: 0;
+  background-color: black;
+  color: #FFF;
+  width: 100%;
+  height: 100px;    
+  text-align: center;
+  line-height: 100px;
+}
+
+.fonte{
+  font: normal 20pt arial;
+}
+
+#voltar {
+  width: 150px;
+}
+
+#logosesi {
+  width: 15%;
+}

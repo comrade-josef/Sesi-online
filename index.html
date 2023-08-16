@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="login/sesi-logo.webp">
+    <link rel="icon" type="image/png" sizes="16x16" href="login/sesi-logo.webp">
+</head>
+<body>
+    <!--barra de navegação-->
+    <nav class="navbar glass" style="height: 70px;">
+        <span><a href="#home" style="display:flex; align-items: center;"><img class="img2" src="login/sesi-logo.webp" width="200"
+            style="margin: -25px -10px -25px -20px"></a></span>
+        <ul class="nav-links">
+            
+            <li><a href="#home" id="quad" class="cir_border">Home</a></li>
+            <li><a href="#cadastro"  id="sec" class="cir_border">Cadastra-se</a></li>
+            <li><a href="sobre/index.html" id="quad" class="cir_border">Sobre nós</a></li>
+            <li><a href="#cursos" id="hex" class="cir_border">Cursos</a></li>
+            <li><a href="login/index.html" id="pri" class="active cir_border">Login</a></li>
+        </ul>
+    </nav>
+    <p>Olá</p>
+    <script>
+        var nome = prompt('Digite seu nome, por favor!')
+        var p1 = document.getElementsByTagName('p')[0]
+        p1.innerHTML = (`SEJA BEM-VINDO AO <br>SITE DO SESI, ${nome}`)
+    </script>
+</body>
